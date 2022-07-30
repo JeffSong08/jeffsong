@@ -1,0 +1,17 @@
+import random
+
+oddnumberlist =[]
+evennumberlist = []
+
+
+for counter in range (1,1000,2):
+    number1 = (random.randint(0,10000))
+
+    
+    if number1 % 2:
+        evennumberlist.append(number1)
+    else:
+        oddnumberlist.append(number1)
+        
+print("Total of the odd numbers are "+str(oddnumberlist))
+print("Total of the even numbers are "+str(evennumberlist))
